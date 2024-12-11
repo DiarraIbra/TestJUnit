@@ -18,7 +18,7 @@ public class EtudiantService {
     }
 
     public List<Etudiant> getAllEtudiants() {
-        return etudiantRepository.findAll();
+        return etudiantRepository;
     }
  
     public Etudiant getEtudiantById(int id) throws ResourceNotFoundException {
